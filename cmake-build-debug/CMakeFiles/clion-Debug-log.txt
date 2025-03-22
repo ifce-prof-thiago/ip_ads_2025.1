@@ -1,1 +1,0 @@
-CMakeLists.txt not found in /home/thiago/CLionProjects/ADS-2025.1 Select CMakeLists.txt
