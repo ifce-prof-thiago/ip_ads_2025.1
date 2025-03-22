@@ -1,1 +1,41 @@
+# Ignorar todos os arquivos
+*
+
+# Não ignorar arquivos .cpp
 !*.cpp
+
+# Não ignorar pastas para incluir arquivos .cpp dentro delas
+!*/
+
+# Ignorar arquivos gerados pela compilação
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+*.class
+
+# Ignorar diretórios comuns de build
+/build/
+bin/
+dist/
+
+# Ignorar arquivos temporários do editor e sistema
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.dSYM/
+*.DS_Store
+Thumbs.db
+
+# Ignorar arquivos do CLion e IDEs baseadas no IntelliJ
+.idea/
+*.iml
+cmake-build-debug/
+cmake-build-release/
+CMakeCache.txt
+CMakeFiles/
