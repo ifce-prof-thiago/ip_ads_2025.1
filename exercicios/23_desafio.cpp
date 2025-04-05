@@ -1,3 +1,4 @@
 /*
-Faça um programa que receba uma frase e exiba a quantidade de espaços em branco presentes na mesma.
+Faça um programa que leia uma palavra e verifica se a mesma é palíndromo
+(se pode ser lida da mesma forma de trás para frente).
 */
