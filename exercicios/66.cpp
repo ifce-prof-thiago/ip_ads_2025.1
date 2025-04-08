@@ -4,7 +4,6 @@ Escreva um programa que leia um vetor de números inteiros e exiba o maior eleme
 #include <iostream>
 #include <cstdio>
 using namespace std;
-
 int main() {
     int n;
     cin >> n;
