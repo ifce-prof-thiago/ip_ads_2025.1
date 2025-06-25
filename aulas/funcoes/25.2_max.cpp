@@ -1,7 +1,15 @@
 #include <iostream>
 
 int max(int M[][3], int m, int n) {
-    return 0;
+    int x = M[0][0];
+    for (int i = 0; i < m; i++) {
+        for (int j = 0; j < n; j++) {
+            if (M[i][j] > x) {
+                x = M[i][j];
+            }
+        }
+    }
+    return x;
 }
 
 int main() {

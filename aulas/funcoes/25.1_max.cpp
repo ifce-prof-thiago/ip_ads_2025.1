@@ -1,7 +1,13 @@
 #include <iostream>
 
 int max(int V[], int n) {
-    return 0;
+    int x = V[0];
+    for (int i = 0; i < n; i++) {
+        if (V[i] > x) {
+            x = V[i];
+        }
+    }
+    return x;
 }
 
 int main() {
